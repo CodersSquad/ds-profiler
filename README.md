@@ -23,6 +23,7 @@ Below some examples of executions:
 ```
 ./main --input integers.txt --recursive-binary-search --target 492170
 Search Algorithm : Recursive Binary Search
+Input File       : integers.txt
 Data Values Type : Integers
 Target Value     : 492170
 Result           : Found
@@ -31,8 +32,9 @@ Result           : Found
 - Iterative Binary Search on `floats.txt`
 
 ```
-./main --input integers.txt --binary-search --target 0.11086637989933112
+./main --input floats.txt --binary-search --target 0.11086637989933112
 Search Algorithm : Recursive Binary Search
+Input File       : floats.txt
 Data Values Type : Floats
 Target Value     : 0.11086637989933112
 Result           : Found
@@ -41,8 +43,9 @@ Result           : Found
 - Sequential Search on `strings.txt`
 
 ```
-./main --input integers.txt --sequential-search --target t17sB7nJaj
+./main --input strings.txt --sequential-search --target t17sB7nJaj
 Search Algorithm : Sequential Search
+Input File       : strings.txt
 Data Values Type : String
 Target Value     : t17sB7nJaj
 Result           : Found
