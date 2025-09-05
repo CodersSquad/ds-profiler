@@ -10,6 +10,8 @@ The first program to `profile` will be the one assigned for search algorithms. G
 
 Your program must be implemented in the provided `.cpp` and `.h` files. Please don't create new source code files. The `main.cpp` file is the one that will manage the command line arguments, and then, it will call the profiler and the chosen search algorithm.
 
+You program will be tested with the following data file: [`integers.txt`](./integers.txt), [`floats.txt`](./floats.txt) and [`strings.txt`](./strings.txt).
+
 ## How your program will be tested
 
 ```

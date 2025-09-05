@@ -26,9 +26,15 @@ $(TARGET): $(OBJECTS)
 
 # Test
 test: $(TARGET)
-	./$(TARGET) --input data.txt --binary-search
-	./$(TARGET) --input data.txt --recursive-binary-search
-	./$(TARGET) --input data.txt --sequential-search	 
+	./$(TARGET) --input floats.txt --binary-search --target 0.7955810550574817
+	./$(TARGET) --input floats.txt --recursive-binary-search --target 0.3457798959992715
+	./$(TARGET) --input floats.txt --sequential-search --target 0.008925694143966711
+	./$(TARGET) --input integers.txt --binary-search --target 240510
+	./$(TARGET) --input integers.txt --recursive-binary-search --target 492170
+	./$(TARGET) --input integers.txt --sequential-search --target 65044
+	./$(TARGET) --input strings.txt --binary-search --target GLLnHxVaUM
+	./$(TARGET) --input strings.txt --recursive-binary-search --target YnPG0TLlV7
+	./$(TARGET) --input strings.txt --sequential-search --target 0KJVCJevCm
 
 # Clean target: removes generated files
 clean:
