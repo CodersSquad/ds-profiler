@@ -57,9 +57,11 @@ Result           : Found
 make test
 ```
 
-## Expected Output
+## Expected Output (of the profiler)
 
 Your profiler will always print its output below at the end of your program common output. Below a sample output, you must follow this format, don't change it.
+
+Consider that the output of the search algorithms will be at the beginning, take a look on previous sections for details.
 
 ```
 ====================================
