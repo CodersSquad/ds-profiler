@@ -4,9 +4,9 @@ According to Google's AI Assistant, a `profiler ` is a dynamic program analysis 
 
 You will be implementing your own profiler, this profiler will be used to initially measure time and memory usage of your programs. From now on, every new coding excercise will use this profiler, make sure you include it in all the programs. Later, we may add more features to your profiler as we see more algorithms in the class.
 
-## The first program to measure
+## The first program to `profile`
 
-The first program to measure will be the one assigned for search algorithms. General instructions can be found on this [link](https://talks.obedmr.com/content/data-structures/search/search.html#9).
+The first program to `profile` will be the one assigned for search algorithms. General instructions can be found on this [link](https://talks.obedmr.com/content/data-structures/search/search.html#9).
 
 Your program must be implemented in the provided `.cpp` and `.h` files. Please don't create new source code files. The `main.cpp` file is the one that will manage the command line arguments, and then, it will call the profiler and the chosen search algorithm.
 
