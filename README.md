@@ -14,6 +14,42 @@ You program will be tested with the following data file: [`integers.txt`](./inte
 
 ## How your program will be tested
 
+**Manual Testing** (please follow the given output format)
+
+Below some examples of executions:
+
+- Recursive Binary Search on `integers.txt`
+
+```
+./main --input integers.txt --recursive-binary-search --target 492170
+Search Algorithm : Recursive Binary Search
+Data Values Type : Integers
+Target Value     : 492170
+Result           : Found
+```
+
+- Iterative Binary Search on `floats.txt`
+
+```
+./main --input integers.txt --binary-search --target 0.11086637989933112
+Search Algorithm : Recursive Binary Search
+Data Values Type : Floats
+Target Value     : 0.11086637989933112
+Result           : Found
+```
+
+- Sequential Search on `strings.txt`
+
+```
+./main --input integers.txt --sequential-search --target t17sB7nJaj
+Search Algorithm : Sequential Search
+Data Values Type : String
+Target Value     : t17sB7nJaj
+Result           : Found
+```
+
+**With Automation (this is how the professor will test)**
+
 ```
 make test
 ```
